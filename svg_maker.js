@@ -1,7 +1,7 @@
 const CLI = new (require('./cli.js'))();
 const fs = require("fs");
 const shapes = require("./json/shapes.json");
-const validInputs = require("./json/verifications.json");
+const validInputs = require("./json/verifications.json").types;
 
 function yourShape() {
     let promise = CLI.run();
@@ -13,7 +13,7 @@ function yourShape() {
                 yourShape();
                 return;
             }
-            if (validInputs[value[1]]) {
+            if (value[1]) {
                 let check = checkInput(value[0], validInputs[value[1]]);
                 if (!check) {
                     console.log(`An input was invalid at: input ${i + 1} with input ${value[0]}`);
