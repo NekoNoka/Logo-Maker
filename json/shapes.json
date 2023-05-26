@@ -1,0 +1,5 @@
+{
+    "circle": "<circle cx=\"150\" cy=\"100\" r=\"80\"",
+    "triangle": "<polygon points=\"150, 10 240, 170 60, 170\"",
+    "square": "<rect x=\"50\" y=\"10\" width=\"200\" height=\"200\""
+}

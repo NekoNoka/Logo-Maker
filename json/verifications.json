@@ -1,0 +1,29 @@
+{
+    "types": [
+        {},
+        {
+            "direct": [
+                "red",
+                "blue",
+                "green",
+                "white",
+                "black",
+                "yellow",
+                "magenta",
+                "cyan",
+                "purple",
+                "orange",
+                "teal",
+                "brown"
+            ],
+            "indirect": "/(#|)[0-9a-f]{6}/i"
+        },
+        {
+            "direct": [
+                "circle",
+                "triangle",
+                "square"
+            ]
+        }
+    ]
+}
